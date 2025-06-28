@@ -29,17 +29,3 @@
     }
   ]
 }
-🔧 How to Get YouTube Playlist IDs:
-Go to any YouTube playlist
-Copy the URL - it looks like: https://www.youtube.com/playlist?list=PLrAl6rYGS6d7VGYfhOwMeFENcUKKVPLEY
-Extract the ID - everything after list= (e.g., PLrAl6rYGS6d7VGYfhOwMeFENcUKKVPLEY)
-Add to your JSON using the youtube_playlist_id field
-🎵 Usage Options:
-Option 1: Use youtube_playlist_id only - fetches all videos from that YouTube playlist
-Option 2: Use videos array only - specify individual video IDs
-Option 3: Use both - YouTube playlist + additional custom videos
-The app is now ready to handle your YouTube playlists! Just create the playlists.json file in your GitHub repo and the app will automatically load all your playlists and videos! 🚀
-
-Jun 28, 07:35 PM
-
-Copy
