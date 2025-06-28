@@ -1,24 +1,45 @@
 {
   "playlists": [
     {
-      "id": "rock_classics",
-      "name": "🎸 Rock Classics",
-      "description": "Timeless rock anthems that never get old",
+      "id": "my_rock_playlist",
+      "name": "🎸 My Rock Collection",
+      "description": "My favorite rock songs of all time",
       "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+      "youtube_playlist_id": "PLrAl6rYGS6d7VGYfhOwMeFENcUKKVPLEY"
+    },
+    {
+      "id": "custom_mix",
+      "name": "🎵 Custom Mix",
+      "description": "Hand-picked individual tracks",
+      "thumbnail": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=300",
       "videos": [
         {"id": "fJ9rUzIMcZQ", "title": "Bohemian Rhapsody - Queen"},
-        {"id": "cd-go0ose48", "title": "November Rain - Guns N' Roses"},
         {"id": "1w7OgIMMRc4", "title": "Sweet Child O' Mine - Guns N' Roses"}
       ]
     },
     {
-      "id": "electronic_beats",
-      "name": "🎛️ Electronic Beats",
-      "description": "The best electronic and EDM tracks",
-      "thumbnail": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=300",
+      "id": "hybrid_playlist",
+      "name": "🎛️ Electronic + Custom",
+      "description": "YouTube playlist plus custom additions",
+      "thumbnail": "https://your-image-url.jpg",
+      "youtube_playlist_id": "PLFPp6T3gYP1TKGNnVTQzI2-1DbKzRQi8d",
       "videos": [
-        {"id": "VIDEO_ID_HERE", "title": "Song Title - Artist"}
+        {"id": "additional_video_id", "title": "Extra Song - Artist"}
       ]
     }
   ]
 }
+🔧 How to Get YouTube Playlist IDs:
+Go to any YouTube playlist
+Copy the URL - it looks like: https://www.youtube.com/playlist?list=PLrAl6rYGS6d7VGYfhOwMeFENcUKKVPLEY
+Extract the ID - everything after list= (e.g., PLrAl6rYGS6d7VGYfhOwMeFENcUKKVPLEY)
+Add to your JSON using the youtube_playlist_id field
+🎵 Usage Options:
+Option 1: Use youtube_playlist_id only - fetches all videos from that YouTube playlist
+Option 2: Use videos array only - specify individual video IDs
+Option 3: Use both - YouTube playlist + additional custom videos
+The app is now ready to handle your YouTube playlists! Just create the playlists.json file in your GitHub repo and the app will automatically load all your playlists and videos! 🚀
+
+Jun 28, 07:35 PM
+
+Copy
