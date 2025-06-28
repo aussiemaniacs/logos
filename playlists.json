@@ -1,0 +1,24 @@
+{
+  "playlists": [
+    {
+      "id": "rock_classics",
+      "name": "🎸 Rock Classics",
+      "description": "Timeless rock anthems that never get old",
+      "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+      "videos": [
+        {"id": "fJ9rUzIMcZQ", "title": "Bohemian Rhapsody - Queen"},
+        {"id": "cd-go0ose48", "title": "November Rain - Guns N' Roses"},
+        {"id": "1w7OgIMMRc4", "title": "Sweet Child O' Mine - Guns N' Roses"}
+      ]
+    },
+    {
+      "id": "electronic_beats",
+      "name": "🎛️ Electronic Beats",
+      "description": "The best electronic and EDM tracks",
+      "thumbnail": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=300",
+      "videos": [
+        {"id": "VIDEO_ID_HERE", "title": "Song Title - Artist"}
+      ]
+    }
+  ]
+}
